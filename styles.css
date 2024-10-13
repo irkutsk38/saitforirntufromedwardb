@@ -107,4 +107,21 @@ footer {
 .read-more:hover {
     background: #005fa3; 
 }
+@media (max-width: 600px) {
+    nav ul li {
+        display: block; 
+        margin: 10px 0; /
+    }
 
+    main {
+        padding: 10px; 
+    }
+
+    .card {
+        padding: 10px; 
+    }
+
+    .read-more {
+        padding: 8px 12px; 
+    }
+}

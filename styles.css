@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -15,8 +15,8 @@ header {
 }
 
 img {
-    max-width: 100%; 
-    height: auto; 
+    max-width: 100%;
+    height: auto;
 }
 
 header h1 {
@@ -49,6 +49,7 @@ main {
     background: #fff;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    min-height: 100vh;
 }
 
 section {
@@ -60,7 +61,7 @@ section {
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 15px;
-    margin-bottom: 30px; /* Увеличено расстояние между блоками */
+    margin-bottom: 30px;
     transition: transform 0.2s;
 }
 
@@ -73,10 +74,8 @@ section {
     margin-top: 0;
 }
 
-.project-image, .interest-image { /* Добавлено для обоих классов изображений */
-    max-width: 100%;
-    height: auto;
-    border-radius: 15px; /* Закругление углов */
+.project-image, .interest-image {
+    border-radius: 15px;
 }
 
 footer {
@@ -94,34 +93,47 @@ footer {
 }
 
 .read-more {
-    display: inline-block; 
-    margin-top: 10px; 
-    padding: 10px 15px; 
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
     background: #0077cc;
-    color: #fff; 
-    text-decoration: none; 
-    border-radius: 5px; 
-    font-size: 16px; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
 .read-more:hover {
-    background: #005fa3; 
+    background: #005fa3;
 }
+
 @media (max-width: 600px) {
     nav ul li {
-        display: block; 
-        margin: 10px 0; /
+        display: block;
+        margin: 10px 0;
     }
 
     main {
-        padding: 10px; 
+        padding: 10px;
     }
 
     .card {
-        padding: 10px; 
+        padding: 10px;
     }
 
     .read-more {
-        padding: 8px 12px; 
+        padding: 8px 12px;
     }
 }
+
+@media (max-width: 400px) {
+    body {
+        font-size: 14px;
+    }
+
+    .read-more {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}
+

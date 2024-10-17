@@ -1,13 +1,13 @@
 body {
-  background: linear-gradient(135deg, #0f2027, #203a43, #f05f57); /* Градиентный фон */
+  background: linear-gradient(135deg, #e0f7fa, #ffe0b2, #ffccbc); /* Светлый градиент */
   background-size: cover;
   margin: 0;
   padding: 0;
-  color: #222222;
+  color: #222222; 
 }
 
 header {
-    background: #000000;
+    background: #000000; 
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
@@ -33,22 +33,22 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #f05f57; 
+    color: #ff8a80; 
     text-decoration: none;
 }
 
 nav ul li a:hover {
     text-decoration: underline;
-    color: #ffffff; 
+    color: #ffffff;
 }
 
 main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: #1c2e35; 
-    color: #e0e0e0; 
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); 
+    background: #ffffff; 
+    color: #222222;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
     border-radius: 8px;
 }
 
@@ -57,23 +57,23 @@ section {
 }
 
 .card {
-    background: #2c3e50; 
-    border: 1px solid #444; 
+    background: #f5f5f5; 
+    border: 1px solid #ddd;
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 30px;
     transition: transform 0.2s;
-    color: #e0e0e0;
+    color: #222222;
 }
 
 .card:hover {
     transform: scale(1.02);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .card h3 {
     margin-top: 0;
-    color: #f05f57; 
+    color: #ff8a80;
 }
 
 .project-image, .interest-image { 
@@ -85,7 +85,7 @@ section {
 footer {
     text-align: center;
     padding: 20px 0;
-    background: #203a43; 
+    background: #000000;
     color: #ffffff;
     position: relative;
     bottom: 0;
@@ -94,14 +94,14 @@ footer {
 
 .vcard p {
     margin: 5px 0;
-    color: #e0e0e0; 
+    color: #222222; 
 }
 
 .read-more {
     display: inline-block; 
     margin-top: 10px; 
     padding: 10px 15px; 
-    background: #f05f57; 
+    background: #ff8a80; 
     color: #ffffff; 
     text-decoration: none; 
     border-radius: 5px; 
@@ -109,7 +109,7 @@ footer {
 }
 
 .read-more:hover {
-    background: #d44a48; 
+    background: #ff6e6e; 
 }
 
 @media (max-width: 600px) {
@@ -130,5 +130,6 @@ footer {
         padding: 8px 12px; 
     }
 }
+
 
 
